@@ -32,6 +32,6 @@ If you encounter any issues or have suggestions for improvements, please click h
 
 ## 📄 License
 
-[MIT](https://github.com/z-ti/liyaya1001/css-chunk-merge-plugin/blob/master/LICENSE)
+[MIT](https://github.com/z-ti/liyaya1001/css-chunk-merge-plugin/blob/main/LICENSE)
 
 Copyright (c) 2025-present flyfox
