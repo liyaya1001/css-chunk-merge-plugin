@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "yayali",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liyaya1001/css-chunk-merge-plugin.git"
+  }
 }
