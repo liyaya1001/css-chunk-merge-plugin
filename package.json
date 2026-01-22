@@ -1,0 +1,13 @@
+{
+  "name": "css-chunk-merge-plugin",
+  "version": "1.0.0",
+  "description": "A light webpack plugin merge chunk css to plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "yayali",
+  "license": "MIT",
+  "private": false
+}
