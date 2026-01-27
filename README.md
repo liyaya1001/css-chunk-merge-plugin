@@ -1,6 +1,6 @@
 ## ✨ Features
 
-- ⏱ **Build Time Injection** - Automatically merge css chunk to main.css.
+- ⏱ **css auto merge** - Automatically merge css chunk to main.css.
 
 ## 📦 Installation
 
@@ -34,4 +34,4 @@ If you encounter any issues or have suggestions for improvements, please click h
 
 [MIT](https://github.com/z-ti/liyaya1001/css-chunk-merge-plugin/blob/main/LICENSE)
 
-Copyright (c) 2025-present flyfox
+Copyright (c) 2025-present yayali

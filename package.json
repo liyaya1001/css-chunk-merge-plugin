@@ -1,29 +1,52 @@
 {
   "name": "css-chunk-merge-plugin",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A light webpack plugin merge chunk css to plugin",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && rollup -c --bundleConfigAsCjs",
+    "build:watch": "rollup -c -w",
+    "prepublishOnly": "npm run build",
+    "test": "node test-build.js"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0 || ^5.0.0"
+  },
+  "dependencies": {
+    "webpack-sources": "^1.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "cross-env": "^7.0.3",
+    "jest": "^29.0.0",
+    "rimraf": "^4.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "webpack": "^5.0.0"
+  },
   "keywords": [
     "webpack",
     "webpack-plugin",
     "css-chunk-merge-plugin",
-    "build-tool",
-    "webpack-custom-plugin"
+    "webpack-custom-plugin",
+    "plugin",
+    "css",
+    "chunk",
+    "merge"
   ],
-  "main": "./src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "yayali",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/liyaya1001/css-chunk-merge-plugin.git"
-  },
-  "devDependencies": {
-    "rollup": "^4.56.0"
-  },
-  "files": [
-    "README.md",
-    "LICENSE"
-  ]
+  "license": "MIT"
 }
