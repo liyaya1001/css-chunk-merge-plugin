@@ -2,15 +2,28 @@
   "name": "css-chunk-merge-plugin",
   "version": "1.0.1",
   "description": "A light webpack plugin merge chunk css to plugin",
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "css-chunk-merge-plugin",
+    "build-tool",
+    "webpack-custom-plugin"
+  ],
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "yayali",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/liyaya1001/css-chunk-merge-plugin.git"
-  }
+  },
+  "devDependencies": {
+    "rollup": "^4.56.0"
+  },
+  "files": [
+    "README.md",
+    "LICENSE"
+  ]
 }
