@@ -32,6 +32,6 @@ If you encounter any issues or have suggestions for improvements, please click h
 
 ## 📄 License
 
-[MIT](https://github.com/z-ti/liyaya1001/css-chunk-merge-plugin/blob/main/LICENSE)
+[MIT](https://github.com/liyaya1001/css-chunk-merge-plugin/blob/main/LICENSE)
 
-Copyright (c) 2025-present yayali
+Copyright (c) 2026-present yayali

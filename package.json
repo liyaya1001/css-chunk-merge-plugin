@@ -1,6 +1,6 @@
 {
   "name": "css-chunk-merge-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A light webpack plugin merge chunk css to plugin",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
